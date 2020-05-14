@@ -10,4 +10,7 @@ Projeto para aplicação do zipkin, sleuth para stack tracing.
 
 Microsserviços:
 - Usuario: onde cria um usuario utilizando um CEP
+
+
+
 - Consulta de Cep via API ViaCep
