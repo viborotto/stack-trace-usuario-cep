@@ -17,3 +17,5 @@ Microsserviços:
 
 
 - Consulta de Cep via API ViaCep
+
+Obs: openzipkin rodando no Docker
