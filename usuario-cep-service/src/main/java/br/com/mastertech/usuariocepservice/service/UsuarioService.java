@@ -11,6 +11,7 @@ public class UsuarioService {
     @Autowired
     private CepClient cepClient;
 
+    //aqui como nao queremos armazenar no DB usaremos direto do client, entao vamos setar o cep do usuario utilizando  client que construimos no outro microsservico
     public Usuario criar(String nome, String cep){
         Usuario usuario = new Usuario();
         usuario.setNome(nome);
